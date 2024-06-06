@@ -1,4 +1,4 @@
-package ListaEstatical02;
+package ListaEstaticaL02;
 
 public class ListaEstatica<T> {
     private Object[] info;
