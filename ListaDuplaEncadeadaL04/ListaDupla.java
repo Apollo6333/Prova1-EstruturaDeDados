@@ -88,7 +88,7 @@ public class ListaDupla<T> {
 
         ListaDupla<T> subLista = new ListaDupla<>();
         NoListaDupla<T> atual = primeiro;
-        int indice = 0;
+        int indice = 0; 
 
         while (atual != null && indice <= fim) {
             if (indice >= inicio) {

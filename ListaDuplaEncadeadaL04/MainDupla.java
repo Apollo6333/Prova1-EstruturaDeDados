@@ -1,6 +1,6 @@
 package ListaDuplaEncadeadaL04;
 
-public class Main {
+public class MainDupla {
     public static void main(String[] args) {
         ListaDupla<Integer> lista1 = new ListaDupla<>();
 

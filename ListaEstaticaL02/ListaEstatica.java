@@ -118,7 +118,7 @@ public class ListaEstatica<T> {
         T temp = null;
 
         while (trocas > 0) {
-            //temp = info[esquerda];
+            temp = (T)info[esquerda];
             info[esquerda] = info[direita];
             info[direita] = temp;
             trocas --;
